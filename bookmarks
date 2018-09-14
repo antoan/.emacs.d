@@ -1,0 +1,15 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("org-refile-last-stored"
+ (filename . "/media/tony/06E5-C286/org/plan.org")
+ (front-context-string . "** CC\n* EMACS \nh")
+ (rear-context-string . "st\n** Refile ME\n")
+ (position . 24386))
+("plan.org"
+ (filename . "/media/tony/06E5-C286/org/plan.org")
+ (front-context-string . "\n* CPP\n** FUNCTI")
+ (rear-context-string . "d example cases.")
+ (position . 37729))
+)

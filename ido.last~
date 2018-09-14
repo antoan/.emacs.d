@@ -1,0 +1,34 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/tony/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/tony/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/tony/.emacs.d/" (23449 9009 224207 307000) "init.el~" "init.el" "elpa/" "auto-save-list/" "./" "bookmarks" "../")
+
+ ("/home/tony/" (23446 47975 775816 158000) ".xscreensaver" ".gnome2/" "thumbnails-digikam.db" "rips/" "values" ".lmmsrc.xml" ".kodi/" ".thumbnails/" "kodi_crashlog-20180808_225556.log" ".gnupg/" "kodi_crashlog-20180621_193622.log" ".emacs.d/" ".Xauthority" ".mozilla/" "kodi_crashlog-20180621_220100.log" ".kde/" "kodi_crashlog-20180826_211007.log" "Desktop/" "core" "kodi_crashlog-20180630_120455.log" ".cache/" "Le Cassette - This is All We Know - speed.mp3" "Downloads/" "kodi_crashlog-20180814_204223.log" "Diagram1.dia.autosave" "Dropbox/" "digikam4.db" "kodi_crashlog-20180807_215938.log" "Documents/" ".recently-used" ".ssh/" ".bashrc" ".wget-hsts" ".bash_history" ".oracle_jre_usage/" ".java/" ".local/" ".gksu.lock" ".dropbox-dist/" ".config/" "Videos/" "Public/" ".macromedia/" "Pictures/" "Stuff" ".install4j" ".gconf/" ".bash_logout" "Templates/" "Music/" ".gphoto/" "ripme.jar" "Le Cassette - This is All We Know - speed 1.30.mp3" ".dbus/" ".npm/" "Budget.txt" "Budget.html" "snap/" "org/" "yEd/" "kodi_crashlog-20180816_190400.log" ".pki/" ".directory" ".gtkrc-2.0" ".gnome2_private/" ".yEd/" ".profile" ".sudo_as_admin_successful" ".xsession-errors" "kodi_crashlog-20180804_114158.log" ".pulse-cookie" ".mplayer/" ".gnome/" ".audacity-data/" "Facebook_files/" ".ros/" "em log/" ".dropbox/" ".ICEauthority" ".gimp-2.8/" ".dia/" ".emacs.d.bkp/" ".i2p/" "../" "./")
+
+ ("/media/" (23450 12056 293130 658000) ".hidden" ".directory" "./" "root/" "../" "tony/")
+
+ ("/media/tony/" (23450 12058 621212 856000) "H/" "06E5-C286/" "cba5d5f0-c6aa-4e2a-ae68-20352a607deb/" "c930e410-9b49-4cec-9ad9-4817204ce0d5/" "Learning/" "C/" "37ba9f6f-df10-4850-a63f-121541c4dbf3/" "J/" "./" "L/" "../" "Alexandria/")
+
+ ("/media/tony/06E5-C286/" (23450 12060 0 0) "JDAM Media/" "Drone Screenshots/" "IMG_20150203_101832875.jpg" "AntoanBekeleCV .doc" "agribot.pdf" "JS/" "org-desktop/" "org/" "Text File" "Your account.html" "System Volume Information/" "lubuntu-18.04-desktop-amd64.iso" "../" "./")
+
+ ("/media/tony/06E5-C286/org/" (23450 15632 0 0) "plan.org_archive" "plan.org" "thoughts.txt" " notes-new.txt" "plan.org~" "samples and images" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
