@@ -9,13 +9,14 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(org-agenda-files (quote ("/media/tony/06E5-C286/org/plan.org")))
- '(package-selected-packages (quote (cyberpunk-theme))))
+ '(package-selected-packages (quote (doom-themes cyberpunk-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
 
 (load-theme 'cyberpunk t)
 (setq org-refile-targets '((org-agenda-files . (:maxlevel . 6))))
