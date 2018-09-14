@@ -4,9 +4,9 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-refile-last-stored"
  (filename . "/media/tony/06E5-C286/org/plan.org")
- (front-context-string . "** CC\n* EMACS \nh")
- (rear-context-string . "st\n** Refile ME\n")
- (position . 24386))
+ (front-context-string . "** Test\n* EMACS ")
+ (rear-context-string . "efile ME\n** CC\n\n")
+ (position . 24759))
 ("plan.org"
  (filename . "/media/tony/06E5-C286/org/plan.org")
  (front-context-string . "\n* CPP\n** FUNCTI")
