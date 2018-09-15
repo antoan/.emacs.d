@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("org-refile-last-stored"
+(("init.el"
+ (filename . "~/.emacs.d/init.el")
+ (front-context-string . ";; This sets up ")
+ (rear-context-string)
+ (position . 1))
+("org-refile-last-stored"
  (filename . "/media/tony/06E5-C286/org/plan.org")
  (front-context-string . "** Test\n* EMACS ")
  (rear-context-string . "efile ME\n** CC\n\n")

@@ -13,7 +13,9 @@
    (quote
     ("6b2636879127bf6124ce541b1b2824800afc49c6ccd65439d6eb987dbf200c36" default)))
  '(org-agenda-files (quote ("/media/tony/06E5-C286/org/plan.org")))
- '(package-selected-packages (quote (helm org-bullets doom-themes cyberpunk-theme))))
+ '(package-selected-packages
+   (quote
+    (magit helm org-bullets doom-themes cyberpunk-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -97,3 +99,5 @@
 (helm-autoresize-mode 1)
 
 (helm-mode 1)
+
+(global-set-key (kbd "C-x g") 'magit-status)
