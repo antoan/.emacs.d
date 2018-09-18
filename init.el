@@ -15,7 +15,7 @@
  '(org-agenda-files (quote ("/media/tony/06E5-C286/org/plan.org")))
  '(package-selected-packages
    (quote
-    (magit helm org-bullets doom-themes cyberpunk-theme))))
+    (helm-projectile magit helm org-bullets doom-themes cyberpunk-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
