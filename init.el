@@ -1,8 +1,10 @@
 ;; This sets up the load path so that we can override it
 (package-initialize)
-
 (add-to-list 'package-archives
              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -15,7 +17,7 @@
  '(org-agenda-files (quote ("/media/tony/06E5-C286/org/plan.org")))
  '(package-selected-packages
    (quote
-    (helm-projectile magit helm org-bullets doom-themes cyberpunk-theme))))
+    (pocket-reader helm-projectile magit helm org-bullets doom-themes cyberpunk-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -105,3 +107,5 @@
 (helm-mode 1)
 
 (global-set-key (kbd "C-x g") 'magit-status)
+
+(require 'pocket-reader)
