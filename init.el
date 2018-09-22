@@ -109,3 +109,6 @@
 (global-set-key (kbd "C-x g") 'magit-status)
 
 (require 'pocket-reader)
+
+ (setq pocket-reader-url-open-fn-map
+    '((eww-browse-url "*")))
