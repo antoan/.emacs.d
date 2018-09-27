@@ -50,6 +50,7 @@
 ;; Corrects (and improves) org-mode's native fontification.
 (doom-themes-org-config)
 
+;; Org-Mode config
 (setq org-refile-targets '((org-agenda-files . (:maxlevel . 6))))
 (setq org-outline-path-complete-in-steps nil)         ; Refile in a single go
 (setq org-refile-use-outline-path t)                  ; Show full paths for refiling
@@ -61,6 +62,8 @@
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cc" 'org-capture)
 (global-set-key "\C-cb" 'org-switchb)
+
+(setq org-support-shift-select t)
 
 ;; Extended helm config from http://tuhdo.github.io/helm-intro.html
 (require 'helm-config)(require 'helm)
