@@ -65,6 +65,16 @@
 
 (setq org-support-shift-select t)
 
+
+
+;;(setq org-capture-templates
+;; '(("t" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
+;;        "* TODO %?\n  %i\n  %a")
+;;   ("j" "Journal" entry (file+olp+datetree "~/org/journal.org")
+;;        "* %?\nEntered on %U\n  %i\n  %a")))
+
+
+
 ;; Extended helm config from http://tuhdo.github.io/helm-intro.html
 (require 'helm-config)(require 'helm)
 (require 'helm-config)
