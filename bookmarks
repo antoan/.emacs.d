@@ -2,7 +2,23 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("init.el"
+(("plan@odroid"
+ (filename .
+	   #("/ssh:odroid@192.168.1.5:/home/odroid/org/plan.org" 1 4
+	     (helm-ff-file t)
+	     5 11
+	     (helm-ff-file t)
+	     12 23
+	     (helm-ff-file t)))
+ (front-context-string . "\n* SESSIONS LOG\n")
+ (rear-context-string)
+ (position . 1))
+("org-capture-last-stored"
+ (filename . "~/org/gtd.org")
+ (front-context-string . "** TODO Test\n  \n")
+ (rear-context-string . " hierarchies.]]\n")
+ (position . 510))
+("init.el"
  (filename . "~/.emacs.d/init.el")
  (front-context-string . ";; This sets up ")
  (rear-context-string)
@@ -13,7 +29,7 @@
  (rear-context-string . "efile ME\n** CC\n\n")
  (position . 24759))
 ("plan.org"
- (filename . "/media/tony/06E5-C286/org/plan.org")
+ (filename . "/media/tony/06E5-C286/org/")
  (front-context-string . "\n* CPP\n** FUNCTI")
  (rear-context-string . "d example cases.")
  (position . 37729))
