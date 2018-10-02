@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <18/09/30 15:34:03 /home/alchemist/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <18/10/02 17:48:42 /home/tony/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
@@ -18,4 +18,9 @@
   ("id" "/usr/bin/id")
   ("gid-integer" 1000)
   ("gid-string" "odroid")
-  ("readlink" "\\readlink")))
+  ("readlink" "\\readlink")
+  ("git" "\\git")
+  ("uid-integer" 1000)
+  ("tmpdir" "/tmp")
+  ("touch-t" t)
+  ("touch" "\\touch")))

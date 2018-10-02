@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("plan@odroid"
+(("favourites.xml"
+ (filename . "~/.kodi/userdata/favourites.xml")
+ (front-context-string . "<favourites>\n   ")
+ (rear-context-string)
+ (position . 1))
+("plan@odroid"
  (filename .
 	   #("/ssh:odroid@192.168.1.5:/home/odroid/org/plan.org" 1 4
 	     (helm-ff-file t)
