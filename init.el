@@ -4,6 +4,12 @@
              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
 
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/bookmarks+"))
+
+(require 'bookmark+)
+;;  I recommend that you byte-compile all of the libraries, after loading the source files (in particular, load bookmark+-mac.el).
+;; https://www.emacswiki.org/emacs/BookmarkPlus
+(byte-recompile-directory "~/.emacs.d/bookmarks+")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
