@@ -75,6 +75,10 @@
 
 (setq org-support-shift-select t)
 
+
+(setq org-ditaa-jar-path "~/.emacs.d/ditaa/ditaa0_9.jar")
+(setq org-display-inline-images t) 
+(add-hook 'org-babel-after-execute-hook 'org-display-inline-images)
 (org-babel-do-load-languages
  'org-babel-load-languages
  '((python . t)
