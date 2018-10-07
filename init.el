@@ -75,7 +75,12 @@
 
 (setq org-support-shift-select t)
 
-
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((python . t)
+   (ditaa . t)
+   (shell . t)
+   ))
 
 ;;(setq org-capture-templates
 ;; '(("t" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
