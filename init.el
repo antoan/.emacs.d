@@ -4,6 +4,9 @@
              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
 
+
+;;(setq org-agenda-files (list "/path/to/dir/file1"))
+
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/bookmarks+"))
 
 (require 'bookmark+)
@@ -16,11 +19,14 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(bmkp-last-as-first-bookmark-file "~/.emacs.d/bookmarks")
  '(custom-enabled-themes (quote (doom-one)))
  '(custom-safe-themes
    (quote
     ("6b2636879127bf6124ce541b1b2824800afc49c6ccd65439d6eb987dbf200c36" default)))
- '(org-agenda-files (quote ("/media/tony/06E5-C286/org/plan.org")))
+ '(org-agenda-files
+   (quote
+    ("/ssh:odroid@192.168.1.5:/home/odroid/org/plan.org")))
  '(package-selected-packages
    (quote
     (pocket-reader helm-projectile magit helm org-bullets doom-themes cyberpunk-theme))))
@@ -75,6 +81,7 @@
 
 (setq org-support-shift-select t)
 
+(global-visual-line-mode 1) ; 1 for on, 0 for off.
 
 (setq org-ditaa-jar-path "~/.emacs.d/ditaa/ditaa0_9.jar")
 (setq org-display-inline-images t) 
@@ -93,6 +100,8 @@
 ;;        "* %?\nEntered on %U\n  %i\n  %a")))
 
 
+; Targets include this file and any file contributing to the agenda - up to 5 levels deep
+(setq org-refile-targets '((nil :maxlevel . 5) (org-agenda-files :maxlevel . 5)))
 
 ;; Extended helm config from http://tuhdo.github.io/helm-intro.html
 (require 'helm-config)(require 'helm)
