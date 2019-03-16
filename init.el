@@ -29,7 +29,7 @@
     ("/ssh:odroid@192.168.1.5:/home/odroid/org/plan.org")))
  '(package-selected-packages
    (quote
-    (pocket-reader helm-projectile magit helm org-bullets doom-themes cyberpunk-theme))))
+    (org-cliplink pocket-reader helm-projectile magit helm org-bullets doom-themes cyberpunk-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

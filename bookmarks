@@ -2,40 +2,65 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("favourites.xml"
- (filename . "~/.kodi/userdata/favourites.xml")
- (front-context-string . "<favourites>\n   ")
- (rear-context-string)
- (position . 1))
-("plan@odroid"
- (filename .
-	   #("/ssh:odroid@192.168.1.5:/home/odroid/org/plan.org" 1 4
-	     (helm-ff-file t)
-	     5 11
-	     (helm-ff-file t)
-	     12 23
-	     (helm-ff-file t)))
- (front-context-string . "\n* SESSIONS LOG\n")
- (rear-context-string)
- (position . 1))
-("org-capture-last-stored"
- (filename . "~/org/gtd.org")
- (front-context-string . "** TODO Test\n  \n")
- (rear-context-string . " hierarchies.]]\n")
- (position . 510))
-("init.el"
- (filename . "~/.emacs.d/init.el")
- (front-context-string . ";; This sets up ")
- (rear-context-string)
- (position . 1))
-("org-refile-last-stored"
- (filename . "/media/tony/06E5-C286/org/plan.org")
- (front-context-string . "** Test\n* EMACS ")
- (rear-context-string . "efile ME\n** CC\n\n")
- (position . 24759))
-("plan.org"
- (filename . "/media/tony/06E5-C286/org/")
- (front-context-string . "\n* CPP\n** FUNCTI")
- (rear-context-string . "d example cases.")
- (position . 37729))
+(#1=(#("favourites.xml" 0 14
+      (bmkp-full-record #1#))
+    (filename . "~/.kodi/userdata/favourites.xml")
+    (front-context-string . "<favourites>\n   ")
+    (rear-context-string)
+    (position . 1))
+#1=(#("plan@odroid" 0 11
+      (bmkp-full-record #1#))
+    (end-position . 51)
+    (time 23668 61635 795064 865000)
+    (visits . 4)
+    (filename .
+	      #("/ssh:odroid@192.168.1.5:/home/odroid/org/plan.org" 1 4
+		(helm-ff-file t)
+		5 11
+		(helm-ff-file t)
+		12 23
+		(helm-ff-file t)))
+    (front-context-string . "\n* SESSIONS LOG\n")
+    (rear-context-string)
+    (position . 51))
+#1=(#("org-capture-last-stored" 0 23
+      (bmkp-full-record #1#))
+    (filename . "~/org/gtd.org")
+    (front-context-string . "** TODO Test\n  \n")
+    (rear-context-string . " hierarchies.]]\n")
+    (position . 510))
+#1=(#("init.el" 0 7
+      (bmkp-full-record #1#))
+    (time 23630 8274 476185 804000)
+    (visits . 1)
+    (filename . "~/.emacs.d/init.el")
+    (front-context-string . ";; This sets up ")
+    (rear-context-string)
+    (position . 1))
+#1=(#("org-refile-last-stored" 0 22
+      (bmkp-full-record #1#))
+    (annotation)
+    (tags)
+    (filename .
+	      #("/ssh:odroid@192.168.1.5:/home/odroid/org/plan.org" 1 4
+		(helm-ff-file t)
+		5 11
+		(helm-ff-file t)
+		12 23
+		(helm-ff-file t)))
+    (buffer-name . "plan.org")
+    (front-context-string . "*** INT\n**** MIR")
+    (rear-context-string . " affect me.\n   \n")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(23669 6097 828935 276000))
+    (created . #2#)
+    (position . 115109))
+#1=(#("plan.org" 0 8
+      (bmkp-full-record #1#))
+    (filename . "/media/tony/06E5-C286/org/")
+    (front-context-string . "\n* CPP\n** FUNCTI")
+    (rear-context-string . "d example cases.")
+    (position . 37729))
 )

@@ -1,26 +1,6 @@
-;; -*- emacs-lisp -*- <18/10/06 14:36:39 /home/alchemist/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <19/03/07 15:43:37 /home/tony/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
 ((["ssh" "odroid" "192.168.1.5" nil nil]
-  ("uname" "Linux 4.14.69-148")
-  ("locale" "LC_ALL=C")
-  ("test" "test")
-  ("remote-path"
-   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
-  ("remote-shell" "/bin/sh")
-  ("~" "/home/odroid")
-  ("file-exists" "test -e")
-  ("stat" nil)
-  ("perl-file-spec" t)
-  ("perl-cwd-realpath" t)
-  ("perl" "\\perl")
-  ("id" "/usr/bin/id")
-  ("gid-integer" 1000)
-  ("gid-string" "odroid")
-  ("readlink" "\\readlink")
-  ("git" "\\git")
-  ("uid-integer" 1000)
-  ("tmpdir" "/tmp")
-  ("touch-t" t)
-  ("touch" "\\touch")))
+  nil))
