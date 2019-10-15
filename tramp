@@ -1,6 +1,8 @@
-;; -*- emacs-lisp -*- <19/03/07 15:43:37 /home/tony/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <19/07/03 08:31:46 /home/tony/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
 ((["ssh" "odroid" "192.168.1.5" nil nil]
+  nil)
+ (["ssh" "odroid" "192.168.1.7" nil nil]
   nil))

@@ -24,9 +24,7 @@
  '(custom-safe-themes
    (quote
     ("6b2636879127bf6124ce541b1b2824800afc49c6ccd65439d6eb987dbf200c36" default)))
- '(org-agenda-files
-   (quote
-    ("/ssh:odroid@192.168.1.5:/home/odroid/org/plan.org")))
+ '(org-agenda-files nil)
  '(package-selected-packages
    (quote
     (org-cliplink pocket-reader helm-projectile magit helm org-bullets doom-themes cyberpunk-theme))))

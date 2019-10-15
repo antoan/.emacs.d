@@ -26,16 +26,10 @@
     ("6b2636879127bf6124ce541b1b2824800afc49c6ccd65439d6eb987dbf200c36" default)))
  '(org-agenda-files
    (quote
-    (#("/ssh:odroid@192.168.1.5:/home/odroid/org/plan.org" 1 4
-       (helm-ff-file t)
-       5 11
-       (helm-ff-file t)
-       12 23
-       (helm-ff-file t))
-     "/media/tony/06E5-C286/org/plan.org")))
+    ("/ssh:odroid@192.168.1.7:/home/odroid/org/plan.org")))
  '(package-selected-packages
    (quote
-    (pocket-reader helm-projectile magit helm org-bullets doom-themes cyberpunk-theme))))
+    (org-cliplink pocket-reader helm-projectile magit helm org-bullets doom-themes cyberpunk-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

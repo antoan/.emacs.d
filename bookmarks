@@ -2,7 +2,20 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("favourites.xml" 0 14
+(#1=(#("planBlue" 0 8
+      (bmkp-full-record #1#))
+    (end-position . 2)
+    (filename . "/media/tony/9D26-19D5/org/plan.org")
+    (buffer-name . "plan.org")
+    (front-context-string . "#+TODO: TODO(t) ")
+    (rear-context-string)
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 1)
+    (time 23812 41644 645831 638000)
+    (created 23812 41625 294406 966000)
+    (position . 2))
+#1=(#("favourites.xml" 0 14
       (bmkp-full-record #1#))
     (filename . "~/.kodi/userdata/favourites.xml")
     (front-context-string . "<favourites>\n   ")
@@ -11,8 +24,8 @@
 #1=(#("plan@odroid" 0 11
       (bmkp-full-record #1#))
     (end-position . 51)
-    (time 23668 61635 795064 865000)
-    (visits . 4)
+    (time 23741 43232 234223 893000)
+    (visits . 8)
     (filename .
 	      #("/ssh:odroid@192.168.1.5:/home/odroid/org/plan.org" 1 4
 		(helm-ff-file t)
@@ -31,8 +44,8 @@
     (position . 510))
 #1=(#("init.el" 0 7
       (bmkp-full-record #1#))
-    (time 23630 8274 476185 804000)
-    (visits . 1)
+    (time 23741 43013 468183 682000)
+    (visits . 2)
     (filename . "~/.emacs.d/init.el")
     (front-context-string . ";; This sets up ")
     (rear-context-string)
@@ -59,8 +72,16 @@
     (position . 115109))
 #1=(#("plan.org" 0 8
       (bmkp-full-record #1#))
-    (filename . "/media/tony/06E5-C286/org/")
-    (front-context-string . "\n* CPP\n** FUNCTI")
-    (rear-context-string . "d example cases.")
-    (position . 37729))
+    (annotation)
+    (tags)
+    (filename . "/ssh:odroid@192.168.1.7:/home/odroid/org/plan.org")
+    (buffer-name . "plan.org")
+    (front-context-string . "#+TODO: TODO(t) ")
+    (rear-context-string)
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 2)
+    (time 23741 44845 825488 512000)
+    (created 23741 43601 688686 110000)
+    (position . 1))
 )
